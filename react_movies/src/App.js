@@ -1,10 +1,15 @@
+import { BrowserRouter as Router, Switch } from 'react-router-dom/cjs/react-router-dom.min';
 import './App.css';
+import Header from './components/header/Header';
 
 function App() {
   return (
-    <div className="App">
-chamalka
-    </div>
+<Router>
+  <Switch>
+  <Header/>
+
+  </Switch>
+</Router>
   );
 }
 
